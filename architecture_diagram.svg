@@ -1,0 +1,173 @@
+<svg viewBox="0 0 1400 1260" xmlns="http://www.w3.org/2000/svg" font-family="Inter, -apple-system, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="6" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#7C8A98"/>
+    </marker>
+    <filter id="cardshadow" x="-5%" y="-5%" width="110%" height="118%">
+      <feDropShadow dx="0" dy="2" stdDeviation="0" flood-color="#DCD2B8" flood-opacity="1"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="1260" fill="#F6F1E4"/>
+
+  <circle cx="56" cy="46" r="20" fill="#FFFCF5" stroke="#1C3144" stroke-width="1.75"/>
+  <text x="56" y="52" font-size="14" font-weight="700" fill="#1C3144" text-anchor="middle" font-family="Source Serif 4, Georgia, serif">S</text>
+  <text x="92" y="44" font-size="26" font-weight="700" fill="#1C3144" font-family="Source Serif 4, Georgia, serif">SENTINEL<tspan fill="#C1502E">.</tspan></text>
+  <text x="92" y="65" font-size="12.5" fill="#3D5266" font-style="italic" font-family="Source Serif 4, Georgia, serif">System Architecture — Energy Supply Chain Resilience</text>
+  <line x1="32" y1="84" x2="1368" y2="84" stroke="#1C3144" stroke-width="2.5"/>
+
+  <text x="32" y="116" font-size="13" font-weight="700" fill="#3D5266" letter-spacing="1.2">00 — ENTRY</text>
+  <rect x="32" y="128" width="1336" height="62" rx="4" fill="#162534" stroke="#0D1D2B" stroke-width="1.5" filter="url(#cardshadow)"/>
+  <text x="56" y="155" font-size="12" font-weight="600" fill="#F6F1E4" font-family="Source Serif 4, Georgia, serif">Cover slide</text>
+  <text x="56" y="173" font-size="9.5" fill="#A9BBC9">Full-screen world map with the real sourcing network, dismissible by click or keypress — index.html / app.js: dismissCover()</text>
+  <text x="1340" y="155" font-size="9.5" fill="#D98255" text-anchor="end" font-weight="600">cover_world_map.png</text>
+  <text x="1340" y="170" font-size="9" fill="#7C8A98" text-anchor="end" font-style="italic">real coastline data, not stock art</text>
+
+  <line x1="700" y1="190" x2="700" y2="216" stroke="#7C8A98" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <text x="32" y="244" font-size="13" font-weight="700" fill="#3D5266" letter-spacing="1.2">01 — SIGNAL LAYER</text>
+  <rect x="32" y="256" width="1336" height="92" rx="4" fill="#FFFCF5" stroke="#C9BCA0" stroke-width="1.5" filter="url(#cardshadow)"/>
+
+  <g font-family="Inter, sans-serif">
+    <rect x="56" y="274" width="195" height="58" rx="3" fill="#F6F1E4" stroke="#DCD2B8" stroke-width="1"/>
+    <text x="153" y="296" font-size="11.5" fill="#1C3144" font-weight="600" text-anchor="middle">Curated event timeline</text>
+    <text x="153" y="312" font-size="9.5" fill="#7C8A98" text-anchor="middle">verified Feb–Jun 2026 reporting</text>
+
+    <rect x="266" y="274" width="195" height="58" rx="3" fill="#F6F1E4" stroke="#DCD2B8" stroke-width="1"/>
+    <text x="363" y="296" font-size="11.5" fill="#1C3144" font-weight="600" text-anchor="middle">Event confidence score</text>
+    <text x="363" y="312" font-size="9.5" fill="#7C8A98" text-anchor="middle">per source, 0.0–1.0</text>
+
+    <rect x="476" y="274" width="215" height="58" rx="3" fill="#FBEEE7" stroke="#C1502E" stroke-width="1.5"/>
+    <text x="583" y="293" font-size="11.5" fill="#1C3144" font-weight="600" text-anchor="middle">Conflicting-signal flag</text>
+    <text x="583" y="309" font-size="9.5" fill="#9C3D22" font-weight="600" text-anchor="middle">e.g. IRGC vs FM vs CENTCOM</text>
+
+    <rect x="706" y="274" width="195" height="58" rx="3" fill="#F6F1E4" stroke="#DCD2B8" stroke-width="1"/>
+    <text x="803" y="296" font-size="11.5" fill="#1C3144" font-weight="600" text-anchor="middle">Corridor shock mapping</text>
+    <text x="803" y="312" font-size="9.5" fill="#7C8A98" text-anchor="middle">event → hormuz / cape_suez / atlantic</text>
+
+    <rect x="916" y="274" width="195" height="58" rx="3" fill="#F6F1E4" stroke="#DCD2B8" stroke-width="1"/>
+    <text x="1013" y="296" font-size="11.5" fill="#1C3144" font-weight="600" text-anchor="middle">User-defined shock</text>
+    <text x="1013" y="312" font-size="9.5" fill="#7C8A98" text-anchor="middle">manual scenario slider</text>
+
+    <text x="1340" y="298" font-size="10" fill="#7C8A98" text-anchor="end">live news / AIS feed</text>
+    <text x="1340" y="313" font-size="9" fill="#7C8A98" text-anchor="end" font-style="italic">(out of scope, see README)</text>
+  </g>
+
+  <line x1="700" y1="348" x2="700" y2="380" stroke="#7C8A98" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <text x="32" y="408" font-size="13" font-weight="700" fill="#3D5266" letter-spacing="1.2">02 — OPTIMIZATION CORE</text>
+  <rect x="32" y="420" width="1336" height="222" rx="4" fill="#FFFCF5" stroke="#C1502E" stroke-width="2" filter="url(#cardshadow)"/>
+  <text x="1340" y="442" font-size="10.5" font-weight="700" fill="#C1502E" text-anchor="end" letter-spacing="0.4">THE DIFFERENTIATOR — NOT AN LLM GUESS</text>
+
+  <g font-family="Inter, sans-serif">
+    <rect x="64" y="460" width="282" height="162" rx="3" fill="#F6F1E4" stroke="#DCD2B8" stroke-width="1"/>
+    <text x="205" y="486" font-size="14" font-weight="700" fill="#1C3144" text-anchor="middle" font-family="Source Serif 4, Georgia, serif">Network model</text>
+    <text x="205" y="510" font-size="11" fill="#3D5266" text-anchor="middle">9 crude sources</text>
+    <text x="205" y="527" font-size="11" fill="#3D5266" text-anchor="middle">3 shipping corridors</text>
+    <text x="205" y="544" font-size="11" fill="#3D5266" text-anchor="middle">5 Indian refineries</text>
+    <text x="205" y="564" font-size="9.5" fill="#7C8A98" text-anchor="middle">grade compatibility matrix</text>
+    <text x="205" y="578" font-size="9.5" fill="#7C8A98" text-anchor="middle">(light sweet / medium sour /</text>
+    <text x="205" y="592" font-size="9.5" fill="#7C8A98" text-anchor="middle">heavy sour / medium sweet)</text>
+    <text x="205" y="610" font-size="9.5" fill="#7C8A98" text-anchor="middle" font-style="italic">network_data.py</text>
+
+    <line x1="346" y1="541" x2="386" y2="541" stroke="#7C8A98" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+    <rect x="386" y="460" width="322" height="162" rx="3" fill="#F6F1E4" stroke="#DCD2B8" stroke-width="1"/>
+    <text x="547" y="486" font-size="14" font-weight="700" fill="#1C3144" text-anchor="middle" font-family="Source Serif 4, Georgia, serif">Cost-minimization solver</text>
+    <text x="547" y="510" font-size="11" fill="#3D5266" text-anchor="middle">linear program (PuLP / CBC)</text>
+    <text x="547" y="527" font-size="10" fill="#7C8A98" text-anchor="middle">min Σ cost(source,refinery) × flow</text>
+    <text x="547" y="543" font-size="10" fill="#7C8A98" text-anchor="middle">s.t. source capacity, 35% concentration cap,</text>
+    <text x="547" y="557" font-size="10" fill="#7C8A98" text-anchor="middle">92% refinery utilization floor</text>
+    <text x="547" y="578" font-size="10" fill="#C1502E" font-weight="600" text-anchor="middle">re-solves on every shock change</text>
+    <text x="547" y="610" font-size="9.5" fill="#7C8A98" text-anchor="middle" font-style="italic">optimizer.py · engine.js (browser port)</text>
+
+    <line x1="708" y1="541" x2="748" y2="541" stroke="#7C8A98" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+    <rect x="748" y="460" width="282" height="162" rx="3" fill="#F6F1E4" stroke="#DCD2B8" stroke-width="1"/>
+    <text x="889" y="486" font-size="14" font-weight="700" fill="#1C3144" text-anchor="middle" font-family="Source Serif 4, Georgia, serif">Optimizer output</text>
+    <text x="889" y="510" font-size="11" fill="#3D5266" text-anchor="middle">sourcing mix by country</text>
+    <text x="889" y="527" font-size="11" fill="#3D5266" text-anchor="middle">routing by refinery</text>
+    <text x="889" y="544" font-size="11" fill="#3D5266" text-anchor="middle">landed cost per barrel</text>
+    <text x="889" y="561" font-size="11" fill="#3D5266" text-anchor="middle">fulfillment %, demand gap</text>
+    <text x="889" y="584" font-size="9.5" fill="#7C8A98" text-anchor="middle">Hormuz exposure vs baseline</text>
+
+    <line x1="1030" y1="541" x2="1070" y2="541" stroke="#7C8A98" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+    <rect x="1070" y="460" width="266" height="162" rx="3" fill="#F6F1E4" stroke="#DCD2B8" stroke-width="1"/>
+    <text x="1203" y="486" font-size="14" font-weight="700" fill="#1C3144" text-anchor="middle" font-family="Source Serif 4, Georgia, serif">Reserve drawdown model</text>
+    <text x="1203" y="510" font-size="10.5" fill="#3D5266" text-anchor="middle">SPR: 38M bbl, 9.5 days cover</text>
+    <text x="1203" y="529" font-size="9.5" fill="#7C8A98" text-anchor="middle">"if this volume were not rerouted,</text>
+    <text x="1203" y="543" font-size="9.5" fill="#7C8A98" text-anchor="middle">how long does the reserve hold"</text>
+    <text x="1203" y="566" font-size="10" fill="#C1502E" font-weight="600" text-anchor="middle">reroute vs drawdown tradeoff</text>
+    <text x="1203" y="610" font-size="9.5" fill="#7C8A98" text-anchor="middle" font-style="italic">reserves.py</text>
+  </g>
+
+  <line x1="700" y1="642" x2="700" y2="674" stroke="#7C8A98" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <text x="32" y="702" font-size="13" font-weight="700" fill="#3D5266" letter-spacing="1.2">03 — AGENT / EXPLANATION LAYER</text>
+  <rect x="32" y="714" width="1336" height="134" rx="4" fill="#FFFCF5" stroke="#C9BCA0" stroke-width="1.5" filter="url(#cardshadow)"/>
+
+  <g font-family="Inter, sans-serif">
+    <rect x="64" y="742" width="386" height="78" rx="3" fill="#F6F1E4" stroke="#DCD2B8" stroke-width="1"/>
+    <text x="257" y="768" font-size="12" font-weight="600" fill="#1C3144" text-anchor="middle">Claude API — procurement memo generation</text>
+    <text x="257" y="787" font-size="9.5" fill="#7C8A98" text-anchor="middle">explains optimizer output in plain language</text>
+    <text x="257" y="802" font-size="9.5" fill="#7C8A98" text-anchor="middle">states assumptions and invalidation conditions</text>
+
+    <text x="478" y="786" font-size="16" fill="#7C8A98" text-anchor="middle">⇄</text>
+
+    <rect x="496" y="742" width="346" height="78" rx="3" fill="#F6F1E4" stroke="#9C8F6E" stroke-width="1.25" stroke-dasharray="4,3"/>
+    <text x="669" y="768" font-size="12" font-weight="600" fill="#3D5266" text-anchor="middle">Template fallback (no API key)</text>
+    <text x="669" y="787" font-size="9.5" fill="#7C8A98" text-anchor="middle">same logic, deterministic, identical structure</text>
+    <text x="669" y="802" font-size="9.5" fill="#7C8A98" text-anchor="middle">guarantees demo never breaks live</text>
+
+    <rect x="866" y="742" width="470" height="78" rx="3" fill="#F6F1E4" stroke="#DCD2B8" stroke-width="1"/>
+    <text x="1101" y="768" font-size="12" font-weight="600" fill="#1C3144" text-anchor="middle">Critical design rule</text>
+    <text x="1101" y="787" font-size="9.5" fill="#7C8A98" text-anchor="middle">LLM only narrates the optimizer's numbers —</text>
+    <text x="1101" y="802" font-size="9.5" fill="#7C8A98" text-anchor="middle">it never decides the allocation itself</text>
+  </g>
+
+  <line x1="700" y1="848" x2="700" y2="880" stroke="#7C8A98" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <text x="32" y="908" font-size="13" font-weight="700" fill="#3D5266" letter-spacing="1.2">04 — PRESENTATION LAYER</text>
+  <rect x="32" y="920" width="1336" height="222" rx="4" fill="#FFFCF5" stroke="#3E7C74" stroke-width="2" filter="url(#cardshadow)"/>
+
+  <g font-family="Inter, sans-serif">
+    <rect x="64" y="948" width="318" height="78" rx="3" fill="#F6F1E4" stroke="#DCD2B8" stroke-width="1"/>
+    <text x="223" y="974" font-size="12" font-weight="600" fill="#1C3144" text-anchor="middle">Timeline scrubber</text>
+    <text x="223" y="993" font-size="9.5" fill="#7C8A98" text-anchor="middle">walks the real Feb–Jun 2026 crisis</text>
+    <text x="223" y="1007" font-size="9.5" fill="#7C8A98" text-anchor="middle">backtest mode</text>
+
+    <rect x="400" y="948" width="318" height="78" rx="3" fill="#F6F1E4" stroke="#DCD2B8" stroke-width="1"/>
+    <text x="559" y="974" font-size="12" font-weight="600" fill="#1C3144" text-anchor="middle">Live sourcing flow + corridor ledger</text>
+    <text x="559" y="993" font-size="9.5" fill="#7C8A98" text-anchor="middle">bars resize as optimizer re-solves;</text>
+    <text x="559" y="1007" font-size="9.5" fill="#7C8A98" text-anchor="middle">live freight $/bbl per corridor</text>
+
+    <rect x="736" y="948" width="318" height="78" rx="3" fill="#F6F1E4" stroke="#DCD2B8" stroke-width="1"/>
+    <text x="895" y="974" font-size="12" font-weight="600" fill="#1C3144" text-anchor="middle">Custom shock simulator</text>
+    <text x="895" y="993" font-size="9.5" fill="#7C8A98" text-anchor="middle">judge-driven what-if slider</text>
+    <text x="895" y="1007" font-size="9.5" fill="#7C8A98" text-anchor="middle">0–100% Hormuz disruption</text>
+
+    <rect x="1072" y="948" width="264" height="78" rx="3" fill="#F6F1E4" stroke="#DCD2B8" stroke-width="1"/>
+    <text x="1204" y="974" font-size="12" font-weight="600" fill="#1C3144" text-anchor="middle">Memo + reserve readout</text>
+    <text x="1204" y="993" font-size="9.5" fill="#7C8A98" text-anchor="middle">KPI row, assumptions panel</text>
+    <text x="1204" y="1007" font-size="9" fill="#7C8A98" text-anchor="middle" font-style="italic">index.html / app.js</text>
+
+    <rect x="64" y="1042" width="318" height="78" rx="3" fill="#F6F1E4" stroke="#DCD2B8" stroke-width="1"/>
+    <text x="223" y="1068" font-size="12" font-weight="600" fill="#1C3144" text-anchor="middle">Cost trajectory chart</text>
+    <text x="223" y="1087" font-size="9.5" fill="#7C8A98" text-anchor="middle">inline SVG line chart, all 9 events,</text>
+    <text x="223" y="1101" font-size="9.5" fill="#7C8A98" text-anchor="middle">active point highlighted live</text>
+
+    <rect x="400" y="1042" width="318" height="78" rx="3" fill="#F6F1E4" stroke="#DCD2B8" stroke-width="1"/>
+    <text x="559" y="1068" font-size="12" font-weight="600" fill="#1C3144" text-anchor="middle">Active network mini-map</text>
+    <text x="559" y="1087" font-size="9.5" fill="#7C8A98" text-anchor="middle">real coastline data; solid = active route,</text>
+    <text x="559" y="1101" font-size="9.5" fill="#7C8A98" text-anchor="middle">dashed = unused capacity, updates live</text>
+
+    <rect x="736" y="1042" width="600" height="78" rx="3" fill="#FBEEE7" stroke="#C1502E" stroke-width="1.5"/>
+    <text x="1036" y="1068" font-size="12" font-weight="600" fill="#1C3144" text-anchor="middle">Chat assistant — rule-based, reads live state</text>
+    <text x="1036" y="1087" font-size="9.5" fill="#9C3D22" text-anchor="middle">pattern-matches against CURRENT (the same object every panel reads)</text>
+    <text x="1036" y="1102" font-size="9.5" fill="#7C8A98" text-anchor="middle" font-style="italic">no live LLM call: zero network dependency, cannot fail mid-demo — chatbot.js</text>
+  </g>
+
+  <rect x="32" y="1206" width="1336" height="38" rx="3" fill="none" stroke="#C9BCA0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="700" y="1229" font-size="10.5" fill="#3D5266" text-anchor="middle" font-style="italic">Validated directionally against actual June 2026 Indian crude import data (Kpler) — backend/validate.py — see README for methodology and limits</text>
+</svg>
